@@ -11,6 +11,7 @@ Package.on_use(function (api) {
   api.use('templating', 'client');
   api.use('handlebars', 'client');
   api.use('jquery', 'client');
+  api.use('HTML5-History-API', 'client');
 
   api.add_files('lib/utils.js', ['client', 'server']);
   api.add_files('lib/route.js', ['client', 'server']);
